@@ -1,0 +1,132 @@
+[2023-07-08 04:59:11] production.ERROR: Class "Laravel\Sanctum\Sanctum" not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Class \"Laravel\\Sanctum\\Sanctum\" not found at /app/config/sanctum.php:21)
+[stacktrace]
+#0 /app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(72): require()
+#1 /app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#2 /app/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(210): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#3 /app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith()
+#4 /app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#5 /app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#6 /app/public/index.php(54): Illuminate\\Foundation\\Http\\Kernel->handle()
+#7 /app/server.php(21): require_once('...')
+#8 {main}
+"} 
+[2023-07-08 05:14:49] production.ERROR: Class "Laravel\Sanctum\Sanctum" not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Class \"Laravel\\Sanctum\\Sanctum\" not found at /app/config/sanctum.php:21)
+[stacktrace]
+#0 /app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(72): require()
+#1 /app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#2 /app/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(210): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#3 /app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith()
+#4 /app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#5 /app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#6 /app/public/index.php(54): Illuminate\\Foundation\\Http\\Kernel->handle()
+#7 /app/server.php(21): require_once('...')
+#8 {main}
+"} 
+[2023-07-08 05:14:51] production.ERROR: Class "Laravel\Sanctum\Sanctum" not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Class \"Laravel\\Sanctum\\Sanctum\" not found at /app/config/sanctum.php:21)
+[stacktrace]
+#0 /app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(72): require()
+#1 /app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#2 /app/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(210): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#3 /app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith()
+#4 /app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#5 /app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#6 /app/public/index.php(54): Illuminate\\Foundation\\Http\\Kernel->handle()
+#7 /app/server.php(21): require_once('...')
+#8 {main}
+"} 
+[2023-07-08 05:14:52] production.ERROR: Class "Laravel\Sanctum\Sanctum" not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Class \"Laravel\\Sanctum\\Sanctum\" not found at /app/config/sanctum.php:21)
+[stacktrace]
+#0 /app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(72): require()
+#1 /app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#2 /app/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(210): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#3 /app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith()
+#4 /app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#5 /app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#6 /app/public/index.php(54): Illuminate\\Foundation\\Http\\Kernel->handle()
+#7 /app/server.php(21): require_once('...')
+#8 {main}
+"} 
+[2023-07-08 05:14:52] production.ERROR: Class "Laravel\Sanctum\Sanctum" not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Class \"Laravel\\Sanctum\\Sanctum\" not found at /app/config/sanctum.php:21)
+[stacktrace]
+#0 /app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(72): require()
+#1 /app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#2 /app/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(210): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#3 /app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith()
+#4 /app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#5 /app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#6 /app/public/index.php(54): Illuminate\\Foundation\\Http\\Kernel->handle()
+#7 /app/server.php(21): require_once('...')
+#8 {main}
+"} 
+[2023-07-08 05:37:44] production.ERROR: Class "Laravel\Sanctum\Sanctum" not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Class \"Laravel\\Sanctum\\Sanctum\" not found at /app/config/sanctum.php:21)
+[stacktrace]
+#0 /app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(72): require()
+#1 /app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#2 /app/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(210): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#3 /app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith()
+#4 /app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#5 /app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#6 /app/public/index.php(54): Illuminate\\Foundation\\Http\\Kernel->handle()
+#7 /app/server.php(21): require_once('...')
+#8 {main}
+"} 
+[2023-07-08 05:37:46] production.ERROR: Class "Laravel\Sanctum\Sanctum" not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Class \"Laravel\\Sanctum\\Sanctum\" not found at /app/config/sanctum.php:21)
+[stacktrace]
+#0 /app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(72): require()
+#1 /app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#2 /app/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(210): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#3 /app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith()
+#4 /app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#5 /app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#6 /app/public/index.php(54): Illuminate\\Foundation\\Http\\Kernel->handle()
+#7 /app/server.php(21): require_once('...')
+#8 {main}
+"} 
+[2023-07-08 05:37:59] production.ERROR: Class "Laravel\Sanctum\Sanctum" not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Class \"Laravel\\Sanctum\\Sanctum\" not found at /app/config/sanctum.php:21)
+[stacktrace]
+#0 /app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(72): require()
+#1 /app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#2 /app/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(210): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#3 /app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith()
+#4 /app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#5 /app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#6 /app/public/index.php(54): Illuminate\\Foundation\\Http\\Kernel->handle()
+#7 /app/server.php(21): require_once('...')
+#8 {main}
+"} 
+[2023-07-08 05:41:33] production.ERROR: Class "Laravel\Sanctum\Sanctum" not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Class \"Laravel\\Sanctum\\Sanctum\" not found at /app/config/sanctum.php:21)
+[stacktrace]
+#0 /app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(72): require()
+#1 /app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#2 /app/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(210): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#3 /app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith()
+#4 /app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#5 /app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#6 /app/public/index.php(54): Illuminate\\Foundation\\Http\\Kernel->handle()
+#7 /app/server.php(21): require_once('...')
+#8 {main}
+"} 
+[2023-07-08 05:41:34] production.ERROR: Class "Laravel\Sanctum\Sanctum" not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Class \"Laravel\\Sanctum\\Sanctum\" not found at /app/config/sanctum.php:21)
+[stacktrace]
+#0 /app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(72): require()
+#1 /app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#2 /app/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(210): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#3 /app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith()
+#4 /app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#5 /app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#6 /app/public/index.php(54): Illuminate\\Foundation\\Http\\Kernel->handle()
+#7 /app/server.php(21): require_once('...')
+#8 {main}
+"} 
+[2023-07-08 05:48:02] production.ERROR: Class "Laravel\Sanctum\Sanctum" not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Class \"Laravel\\Sanctum\\Sanctum\" not found at /app/config/sanctum.php:21)
+[stacktrace]
+#0 /app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(72): require()
+#1 /app/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#2 /app/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(210): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#3 /app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith()
+#4 /app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#5 /app/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#6 /app/public/index.php(54): Illuminate\\Foundation\\Http\\Kernel->handle()
+#7 /app/server.php(21): require_once('...')
+#8 {main}
+"} 
