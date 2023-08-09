@@ -1,66 +1,148 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# WANGKAS
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Aplikasi pendataan uang kas dibuat dengan Framework Laravel 9. Dengan sistem pembayaran kas sekali selama seminggu. Aplikasi ini cocok untuk digunakan untuk di sekolah atau masing masing kelas. <br>
 
-## About Laravel
+Beberapa CRUD menggunakan modal dan AJAX untuk pengambilan data agar mengurangi penggunaan pindah halaman. Dan seluruh menu menggunakan DataTable Server Side Processing.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+**Penting**: Akan dilakukan rewrite seluruh modul. Untuk sekarang masih dalam tahap development di branch __rewrite/main__.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+### Prasyarat
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Berikut beberapa hal yang perlu diinstal terlebih dahulu:
 
-## Learning Laravel
+-   Composer (https://getcomposer.org/)
+-   PHP ^8.1.x
+-   MySQL ^10.6
+-   XAMPP
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Jika Anda menggunakan XAMPP, untuk PHP dan MySQL sudah menjadi 1 (bundle) di dalam aplikasi XAMPP.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+### Fitur
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+-   CRUD Data Siswa
+-   CRUD Data Kelas
+-   CRUD Data Jurusan
+-   CRUD Data Transaksi Uang Kas
+-   CRUD Data Administrator
+-   Laporan
 
-## Laravel Sponsors
+### Preview Gambar
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+_Login_
+![Login](https://i.ibb.co/Ws6H4Kr/login.png)
 
-### Premium Partners
+_Dashboard_
+![Dashboard](https://i.ibb.co/k3dCNyZ/dashboard.png)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+_Daftar Pelajar_
+![Daftar Pelajar](https://i.ibb.co/TPdYWxh/pelajar.png)
 
-## Contributing
+_Daftar Kelas_
+![Daftar Kelas](https://i.ibb.co/9ZD9Nm4/kelas.png)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+_Daftar Jurusan_
+![Daftar Jurusan](https://i.ibb.co/LkFzhsS/jurusan.png)
 
-## Code of Conduct
+_Daftar Kas_
+![Daftar Kas](https://i.ibb.co/kBJwv30/kas-minggu-ini.png)
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+![Filter Kas](https://i.ibb.co/F88Gkyx/filter-kas.png)
 
-## Security Vulnerabilities
+_Laporan_
+![Laporan](https://i.ibb.co/FmdXMBC/laporan.png)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+_Daftar Administrator_
+![Daftar Administrator](https://i.ibb.co/pyk0dSk/administrator.png)
 
-## License
+_Logout_
+![Logout](https://i.ibb.co/0Jd6GDM/logout.png)
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+### Langkah-langkah instalasi
+
+-   Clone repository ini
+
+HTTPS
+
+```
+https://github.com/mrizkimaulidan/wangkas.git
+```
+
+SSH
+
+```
+git@github.com:mrizkimaulidan/wangkas.git
+```
+
+-   Install seluruh packages yang dibutuhkan
+
+```bash
+composer install
+```
+
+-   Siapkan database dan atur file .env sesuai dengan konfigurasi Anda
+-   Ubah value APP_NAME= pada file .env menjadi nama aplikasi yang anda inginkan
+-   Jika sudah, migrate seluruh migrasi dan seeding data
+
+```bash
+php artisan migrate --seed
+```
+
+- Generate JWT Secret Token
+
+```bash
+php artisan jwt:secret
+```
+
+-   Ketik perintah dibawah ini untuk membuat cache baru dari beberapa konfigurasi yang telah diubah
+
+```bash
+php artisan optimize
+```
+
+-   Jalankan local server
+
+```bash
+php artisan serve
+```
+
+-   _(Opsional)_ Secara default debugbar akan aktif, untuk menonaktifkannnya cari variabel `DEBUGBAR_ENABLED` pada file .env dan ubah valuenya menjadi `false`
+
+-   Akses ke halaman
+
+```
+http://127.0.0.1:8000
+```
+
+---
+
+-   User default aplikasi untuk login
+
+##### Administrator
+
+```
+Email       : admin@mail.com
+Password    : secret
+```
+
+### Dibuat dengan
+
+- [Laravel](https://laravel.com/) - Backend Framework
+- [Bootstrap](https://getbootstrap.com/) - Frontend Framework
+
+### Kontribusi
+
+Silahkan request melalui kolom `Pull Requests` jika ingin melakukan kontribusi
+
+### Pembuat
+
+-   **Muhammad Rizki Maulidan**  - [mrizkimaulidan](https://github.com/mrizkimaulidan)
+
+### Lisensi
+
+Aplikasi ini boleh untuk dibagi dan diubah. Mohon tidak untuk diperjualbelikan!
+
+### Ucapan terima kasih
+
+-   [Mazer Dashboard Theme](https://github.com/zuramai/mazer)
+-   Stackoverflow
+-   Google
